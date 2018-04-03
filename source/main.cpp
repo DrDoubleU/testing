@@ -1,11 +1,11 @@
 
 #include <vector>
-#include <stdio>
+#include <iostream>
 
 using namespace std;
 
 int main() {
-    unsigned int status(0);
+    int status(0);
 
     cout << "hello world" << endl;
 
