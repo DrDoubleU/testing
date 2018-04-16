@@ -1,0 +1,4 @@
+cmake_minimum_required(VERSION 3.10.0) 
+#sets variable CMAKE_MINIMUM_REQUIRED_VERSION 
+#macOS High Sierra : no default
+#Ubuntu Bionic Beaver -> LTS 18 in April 2018 : 3.10.2
