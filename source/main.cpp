@@ -2,7 +2,7 @@
 #include <vector>
 #include <iostream>
 
-#include <nlohmann/json.hpp>
+#include <json.hpp>
 
 using namespace std;
 using json = nlohmann::json;
@@ -16,6 +16,8 @@ int main() {
     j["Name"] = "Nick";
     j["age"] = 36;
     cout << j << endl;
+    cout << j.flatten() << endl;
+
 
     return status;
 }
